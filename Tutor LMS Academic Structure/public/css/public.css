@@ -1,0 +1,128 @@
+/* Tutor LMS Academic Pro - Public Styles */
+.tlms-registration-fields {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid var(--tutor-border-color);
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.tlms-registration-fields h3 {
+    margin-top: 0;
+    color: var(--tutor-color-primary);
+    border-bottom: 2px solid var(--tutor-color-primary);
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.tlms-category-level {
+    margin-bottom: 20px;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.tlms-category-level label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--tutor-color-black);
+    font-size: 15px;
+}
+
+.tlms-category-level select {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    border: 1px solid var(--tutor-border-color);
+    border-radius: 6px;
+    background: white;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.tlms-category-level select:focus {
+    border-color: var(--tutor-color-primary);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(101, 84, 192, 0.1);
+}
+
+.tlms-category-level select.error {
+    border-color: #ff2c2c;
+}
+
+.tlms-loading {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid var(--tutor-color-primary);
+    border-radius: 50%;
+    animation: tlms-spin 1s linear infinite;
+    margin-left: 10px;
+}
+
+@keyframes tlms-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.tlms-field-error {
+    color: #ff2c2c;
+    font-size: 13px;
+    margin-top: 5px;
+    display: block;
+}
+
+.tlms-education-type-buttons {
+    margin: 15px 0;
+}
+
+.tlms-button-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.tlms-edu-btn {
+    padding: 12px 20px;
+    border: 2px solid var(--tutor-color-primary);
+    background: white;
+    color: var(--tutor-color-primary);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.tlms-edu-btn:hover,
+.tlms-edu-btn.active {
+    background: var(--tutor-color-primary);
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tlms-registration-fields {
+        padding: 15px;
+        margin: 15px 0;
+    }
+    
+    .tlms-category-level select {
+        max-width: 100%;
+    }
+    
+    .tlms-button-group {
+        flex-direction: column;
+    }
+    
+    .tlms-edu-btn {
+        width: 100%;
+        text-align: center;
+    }
+}

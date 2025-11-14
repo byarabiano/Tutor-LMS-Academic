@@ -1,0 +1,7 @@
+academic-structure.png - أيقونة التصنيفات الأكاديمية
+
+university-icon.png - أيقونة الجامعات
+
+school-icon.png - أيقونة المدارس
+
+course-visibility.png - أيقونة رؤية الكورسات

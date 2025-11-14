@@ -1,0 +1,239 @@
+/* Tutor LMS Academic Pro - Admin Styles */
+.tlms-settings-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.tlms-settings-main {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.tlms-settings-sidebar {
+    width: 300px;
+}
+
+.tlms-info-box {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.tlms-info-box h3 {
+    margin-top: 0;
+    color: #23282d;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.tlms-category-level {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.tlms-category-level select {
+    width: 100%;
+    max-width: 300px;
+}
+
+.tlms-category-level label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #23282d;
+}
+
+/* Taxonomy Management Styles */
+.tlms-taxonomy-management {
+    margin: 20px 0;
+}
+
+.tlms-level-builder {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.tlms-level {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px dashed #ccc;
+    border-radius: 4px;
+}
+
+.tlms-level h4 {
+    margin-top: 0;
+    color: #0073aa;
+}
+
+/* Export/Import Styles */
+.tlms-export-import {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.tlms-export-import .button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Multisite Network Styles */
+.tlms-network-tools {
+    margin-top: 30px;
+}
+
+.tlms-network-tools table.widefat {
+    border-spacing: 0;
+    width: 100%;
+}
+
+.tlms-network-tools th {
+    text-align: left;
+    padding: 8px 10px;
+}
+
+/* Integration Status */
+.tlms-integration-status {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.tlms-integration-status.active {
+    border-left: 4px solid #46b450;
+}
+
+.tlms-integration-status.inactive {
+    border-left: 4px solid #dc3232;
+}
+
+.tlms-integration-icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.tlms-integration-info {
+    flex: 1;
+}
+
+/* AJAX Loading States */
+.tlms-loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #3498db;
+    border-radius: 50%;
+    animation: tlms-spin 1s linear infinite;
+    margin-right: 10px;
+}
+
+@keyframes tlms-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Course Categories Meta Box */
+.tlms-course-categories {
+    padding: 10px 0;
+}
+
+.tlms-course-categories p {
+    margin-bottom: 10px;
+}
+
+.tlms-course-categories label {
+    display: block;
+    margin-bottom: 5px;
+    padding: 2px 0;
+}
+
+.tlms-course-categories input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tlms-settings-container {
+        flex-direction: column;
+    }
+    
+    .tlms-settings-sidebar {
+        width: 100%;
+    }
+}
+
+/* Tooltips */
+.tlms-tooltip {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.tlms-tooltip .dashicons {
+    color: #0073aa;
+    font-size: 16px;
+}
+
+.tlms-tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.tlms-tooltip:hover .tlms-tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Quick Actions Grid */
+.tlms-quick-actions {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.tlms-quick-actions .button {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    min-height: 80px;
+}
+
+.tlms-quick-actions .dashicons {
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: block;
+}

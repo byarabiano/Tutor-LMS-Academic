@@ -1,0 +1,207 @@
+# Copyright (C) 2024 Tutor LMS Academic Pro
+# This file is distributed under the same license as the Tutor LMS Academic Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tutor LMS Academic Pro 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: 2024-01-01 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/partials/settings-main.php:10
+msgid "Tutor LMS Academic Pro Settings"
+msgstr ""
+
+#: admin/partials/settings-main.php:15
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: admin/partials/settings-main.php:37
+msgid "Save Settings"
+msgstr ""
+
+#: admin/partials/settings-main.php:44
+msgid "Quick Actions"
+msgstr ""
+
+#: admin/partials/settings-main.php:48
+msgid "Manage Academic Categories"
+msgstr ""
+
+#: admin/partials/settings-main.php:52
+msgid "Manage User Categories"
+msgstr ""
+
+#: admin/partials/settings-main.php:56
+msgid "Migrate Existing Users"
+msgstr ""
+
+#: admin/partials/settings-main.php:60
+msgid "Clear Cache"
+msgstr ""
+
+#: admin/partials/settings-main.php:68
+msgid "Plugin Information"
+msgstr ""
+
+#: admin/partials/settings-main.php:69
+msgid "Version:"
+msgstr ""
+
+#: admin/partials/settings-main.php:70
+msgid "Tutor LMS:"
+msgstr ""
+
+#: admin/partials/settings-main.php:71
+msgid "Active"
+msgstr ""
+
+#: admin/partials/settings-main.php:71
+msgid "Not Active"
+msgstr ""
+
+#: admin/partials/settings-main.php:76
+msgid "Export/Import Settings"
+msgstr ""
+
+#: admin/partials/settings-main.php:78
+msgid "Export Settings"
+msgstr ""
+
+#: admin/partials/settings-main.php:82
+msgid "Import Settings"
+msgstr ""
+
+#: admin/partials/settings-main.php:85
+msgid "Backup your settings or migrate to another site."
+msgstr ""
+
+#: admin/partials/settings-main.php:91
+msgid "Need Help?"
+msgstr ""
+
+#: admin/partials/settings-main.php:92
+msgid "Check the documentation for detailed instructions on setting up academic categories and user management."
+msgstr ""
+
+#: admin/partials/settings-main.php:95
+msgid "View Documentation"
+msgstr ""
+
+#: includes/class-user-registration.php:150
+msgid "Academic Information"
+msgstr ""
+
+#: includes/class-user-registration.php:153
+msgid "Education Type"
+msgstr ""
+
+#: includes/class-user-registration.php:155
+msgid "Select Education Type"
+msgstr ""
+
+#: includes/class-user-registration.php:173
+msgid "Select Level %d"
+msgstr ""
+
+#: public/partials/registration-fields.php:15
+msgid "Academic Information"
+msgstr ""
+
+#: public/partials/registration-fields.php:18
+msgid "Education Type"
+msgstr ""
+
+#: public/partials/registration-fields.php:20
+msgid "Select Education Type"
+msgstr ""
+
+#: integrations/class-restrict-content-pro.php:85
+msgid "Academic Categories Restriction"
+msgstr ""
+
+#: integrations/class-restrict-content-pro.php:88
+msgid "Select academic categories that will be automatically assigned to users with this membership level:"
+msgstr ""
+
+#: integrations/class-paid-memberships-pro.php:85
+msgid "Academic Categories Integration"
+msgstr ""
+
+#: integrations/class-paid-memberships-pro.php:86
+msgid "Automatically assign academic categories to users with this membership level:"
+msgstr ""
+
+#: integrations/class-paid-memberships-pro.php:94
+msgid "Academic Categories"
+msgstr ""
+
+#: integrations/class-paid-memberships-pro.php:107
+msgid "No academic categories found."
+msgstr ""
+
+#: integrations/class-paid-memberships-pro.php:112
+msgid "Users with this membership level will be automatically assigned to the selected academic categories."
+msgstr ""
+
+#: includes/class-course-visibility.php:215
+msgid "Academic Visibility"
+msgstr ""
+
+#: includes/class-course-visibility.php:218
+msgid "Education Type:"
+msgstr ""
+
+#: includes/class-course-visibility.php:220
+msgid "Select Education Type"
+msgstr ""
+
+#: includes/class-course-visibility.php:225
+msgid "Select the education type for this course. This determines which users can see the course."
+msgstr ""
+
+#: includes/class-course-visibility.php:230
+msgid "Academic Categories:"
+msgstr ""
+
+#: includes/class-course-visibility.php:231
+msgid "Select the academic categories that can access this course. Leave empty to make it available to all categories of the selected education type."
+msgstr ""
+
+#: includes/class-course-visibility.php:247
+msgid "No categories found for this education type."
+msgstr ""
+
+#: includes/class-course-visibility.php:251
+msgid "Please select an education type first."
+msgstr ""
+
+#: includes/class-compatibility.php:125
+msgid "Compatibility Issues Detected"
+msgstr ""
+
+#: includes/class-compatibility.php:129
+msgid "Tutor LMS Academic Pro requires PHP version %s or higher. Your current version is %s."
+msgstr ""
+
+#: includes/class-compatibility.php:136
+msgid "Tutor LMS Academic Pro requires WordPress version %s or higher. Your current version is %s."
+msgstr ""
+
+#: includes/class-compatibility.php:143
+msgid "Tutor LMS Academic Pro requires Tutor LMS to be installed and activated."
+msgstr ""
+
+#: includes/class-compatibility.php:147
+msgid "Tutor LMS Academic Pro requires Tutor LMS version %s or higher. Your current version is %s."
+msgstr ""
+
+#: includes/class-compatibility.php:154
+msgid "For optimal performance, we recommend increasing your memory limit to %s. Your current limit is %s."
+msgstr ""
